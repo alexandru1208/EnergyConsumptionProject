@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <Switch
+        android:layout_marginTop="60dp"
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF/ON"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="Energie consumata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/consum"
+        android:gravity="center"
+        android:text="20 Wh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/setHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seteaza ora ON/OFF"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
